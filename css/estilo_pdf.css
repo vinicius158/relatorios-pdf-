@@ -1,0 +1,256 @@
+    
+table, th, td {     
+
+    border: 1px solid black;    
+    border-collapse:collapse;    
+    text-align:center;     
+
+  }           
+
+  table{
+
+  width:100%;   
+
+  }    
+
+  table thead{
+
+  background:black;  
+  color:white; 
+
+  }
+    .user{
+    
+    display:flex;     
+    align-items:center;   
+    flex-direction:row;    
+    
+    }    
+    
+    .user .txt{
+    
+    margin-top:20px; 
+    margin-right:10px;
+    
+    
+    }
+    
+    .container-fluid, nav{
+    
+    background:black;   
+    color:white;    
+    
+    }
+    
+    .nav-link{
+    
+    color:white;  
+    margin:10px;  
+    transition:0.5s;     
+    
+    }    
+    
+    .nav-link:hover{
+    
+    color:yellow;       
+    
+    }      
+    
+    .fa-user{
+    
+    font-size:20px; 
+    
+    }    
+    
+    .container{
+            
+    height:300px;  
+    margin-top:60px;      
+    
+    }   
+    
+    .table{
+    
+    height:300px;    
+    overflow-x:auto;
+    
+    }
+    
+    .container #topo{
+    
+    height:50px;       
+    margin-top:0px; 
+    display:flex;      
+    justify-content:space-between;   
+    align-items:center;  
+    margin-bottom:10px;
+    
+    }           
+    
+    .container #topo .txt2{
+    
+    font-size:25px;   
+    font-weight:500;  
+    margin-top:15px;
+    
+    }
+    
+    .fa-solid{
+    
+    font-size:18px;     
+    margin-left:5px; 
+    
+    }
+    
+    #campo{
+        
+    border:none;  
+    border-top-left-radius:8px;    
+    border-bottom-left-radius:8px;
+    outline:none;    
+    padding:2px;  
+    margin-right:-5px; 
+    
+    }       
+    
+    .pesquisa{
+    
+    padding:2px;     
+    border:none;       
+    border-top-right-radius:5px;   
+    border-bottom-right-radius:5px; 
+    background:black;
+    color:white;  
+    padding-right:8px;
+    
+    }     
+    
+    .form-select{
+    
+    margin-bottom:20px;   
+    margin-top:20px; 
+    
+    }    
+    
+    .adicionar{
+    
+    text-align:center;  
+    
+    }   
+    
+    #alert{
+    
+    height:50px; 
+    margin-top:20px;
+    
+    }    
+
+    .title{
+
+    text-align:center;    
+    margin-top:10px; 
+          
+    }    
+
+    hr{
+    
+    border:solid 1px;      
+
+    }     
+
+    .content{     
+
+    width:80%;    
+    margin-left:10%;   
+    margin-bottom:-30px;
+    height:auto;
+    background:blue;
+
+    }     
+
+    h2{
+
+    margin-left:10%;  
+
+    }     
+    
+    .result{
+
+    width:80%;      
+    margin-left:12%;             
+    height:230px; 
+    display:flex;     
+    justify-content:space-around;       
+
+    }    
+
+    h4{
+
+    margin:20px;
+
+    }     
+
+    .img{
+
+    width:200px;   
+    height:200px;  
+    margin-left:40%;   
+    border:solid 1px;     
+
+    }     
+
+    .title2{
+
+    display:flex;   
+    justify-content:space-between;   
+    align-items:center;   
+    width:80%;        
+    margin-left:10%;     
+    padding-right:50px;
+
+    }   
+
+    .processo{
+ 
+    margin-left:10%;       
+
+    }      
+
+    .tt2{
+
+    margin-left:70%;   
+    margin-top:-60px;
+
+    }    
+
+    .txt4{
+ 
+    font-weight:500;    
+    font-size:15px;
+
+    }    
+
+    .number{
+
+    margin-left:-20px;      
+    width:350px;     
+    margin-bottom:10px;   
+
+    }        
+
+    .qr_code{
+
+    margin-left:230px;  
+    margin-top:-180px;  
+
+    }         
+
+    .txt5{
+
+    font-weight:500;    
+    font-size:15px;  
+
+    }    
+
+
+
