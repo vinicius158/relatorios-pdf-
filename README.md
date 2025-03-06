@@ -14,4 +14,5 @@ envio de código de verifação para recuperar o acesso.
 - CSS
 - Java Script (ajax, jquery)
 - Bootstrap 
-- PHP (Utilizando a biblioteca Chillerlan para gerar o QrCode, Dompdf para o pdf e o PHPMailer responsável pelo envio de emails)     
+- PHP (Utilizando a biblioteca Chillerlan para gerar o QrCode, Dompdf para o pdf e o PHPMailer responsável pelo envio de emails)
+- Banco de dados MySQL 
