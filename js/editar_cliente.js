@@ -44,7 +44,9 @@ $("#editar_cliente").submit(function(e){
 
         $(".message3").html("<div class='alert alert-danger d-flex align-items-center'role='alert'><svg class='bi flex-shrink-0 me-2' role='img' aria-label='Danger:' width='24' height='24'><use xlink:href='#exclamation-triangle-fill'/></svg><div>Realize alguma alteração !!! </div></div>");   
 
-    }else{
+    }else{    
+
+         if($("#email3").validate()){
 
     $.ajax({
     
@@ -66,7 +68,9 @@ $("#editar_cliente").submit(function(e){
 
      }
 
-    });       
+    }); 
+
+         }
 
 
     }         
