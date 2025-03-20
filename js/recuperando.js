@@ -16,6 +16,8 @@ if(email.length === 0 || senha.length === 0 || senha2.length === 0){
 
     if(senha == senha2){
 
+ if($("#email").validate()){
+        
    $.ajax({
 
    url:"recuperar_conta.php",   
@@ -35,7 +37,9 @@ if(email.length === 0 || senha.length === 0 || senha2.length === 0){
 
     }
 
-   });        
+   });  
+
+ }
    
 }else{
 
