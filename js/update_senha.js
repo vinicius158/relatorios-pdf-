@@ -12,7 +12,9 @@ if(email.length === 0 || senha.length === 0 || senha2.length === 0){
 
 $(".message").html("<div class='alert alert-danger d-flex align-items-center'role='alert'><svg class='bi flex-shrink-0 me-2' role='img' aria-label='Danger:' width='24' height='24'><use xlink:href='#exclamation-triangle-fill'/></svg><div>Preencha todos os campos !!! </div></div>");     
 
-}else{
+}else{   
+
+  if($("#email").validate()){
 
 $.ajax({
 
@@ -42,7 +44,9 @@ if(response == "erro"){
 }
 
 
-});       
+});     
+
+  }
 
 }
 
@@ -50,7 +54,7 @@ if(response == "erro"){
 
 
 $('#exampleModal3').on('hide.bs.modal', function (event) {
-    //executar algo...
+    
     $(this).find('form')[0].reset();        
         
     $(".message").html("");      
